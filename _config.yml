@@ -23,10 +23,8 @@ author:
   github: "Vicent0205"
   twitter: "junteng88716710"
 
-# Publication category headings retained for the Academic Pages theme
+# Theme publication headings (the publications page is maintained as static HTML)
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
     title: 'Journal Articles'
   conferences:
@@ -41,47 +39,15 @@ read_more: "disabled"
 talkmap_link: false
 comments:
   provider: false
-  disqus:
-    shortname:
-  discourse:
-    server:
-  facebook:
-    appid:
-    publisher:
-staticman:
-  allowedFields: ['name', 'email', 'url', 'message']
-  branch: "master"
-  commitMessage: "New comment."
-  filename: comment-{@timestamp}
-  format: "yml"
-  moderation: true
-  path: "_data/comments/{options.slug}"
-  requiredFields: ['name', 'email', 'message']
-  transforms:
-    email: "md5"
-  generatedFields:
-    date:
-      type: "date"
-      options:
-        format: "iso8601"
-        alt_input: null
-        timezone: null
 atom_feed:
   hide: true
   path:
 
 # SEO and social profiles
-google_site_verification:
-bing_site_verification:
-alexa_site_verification:
-yandex_site_verification:
-
 twitter:
-  username: &twitter "junteng88716710"
+  username: "junteng88716710"
 facebook:
   username:
-  app_id:
-  publisher:
 og_image:
 og_description:
 social:
@@ -93,42 +59,47 @@ social:
     - "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate"
     - "https://x.com/junteng88716710"
 
-# Analytics
+# Analytics are disabled
 analytics:
   provider: "false"
   google:
     tracking_id:
 
-# File handling
+# Reading files
 include:
-  - .htaccess
   - _pages
-  - files
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
   - .bundle
+  - .devcontainer
   - .github
   - .jekyll-assets-cache
   - .sass-cache
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
+  - AGENTS.md
   - CHANGELOG
   - Capfile
   - config
   - Dockerfile
+  - docker-compose.yaml
+  - _config_docker.yml
   - Gemfile
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
   - local
   - log
+  - markdown_generator
   - node_modules
   - package.json*
   - Rakefile
   - README*
+  - scripts
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
+  - talkmap_out.ipynb
   - tmp
   - vendor
 keep_files:
@@ -156,69 +127,13 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# Collections are not emitted as separate pages; content is presented on the
-# home page and the existing Publications index page.
-collections:
-  teaching:
-    output: false
-    permalink: /:collection/:path/
-  publications:
-    output: false
-    permalink: /:collection/:path/
-  portfolio:
-    output: false
-    permalink: /:collection/:path/
-  talks:
-    output: false
-    permalink: /:collection/:path/
-
-# Front matter defaults
+# Default front matter for site pages
 defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
   - scope:
       path: ""
       type: pages
     values:
       layout: single
-      author_profile: true
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
       author_profile: true
 
 # Sass
@@ -232,28 +147,9 @@ timezone: Etc/UTC
 
 # Plugins
 plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
-
-whitelist:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-
-# Archive pages
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
 
 # HTML compression
 compress_html:
