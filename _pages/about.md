@@ -20,7 +20,7 @@ author_profile: true
 ## Academic Background
 
 - **Ph.D. in Computer Science**, Hong Kong University of Science and Technology (2024 - Present)
-  - Member of the HKUST NLP Group, a research group at HKUST led by Professor Junxian He and focused on natural language processing research
+  - Member of the HKUST NLP Group
   - Ph.D. supervisor: Professor Junxian He
 - **B.Eng.**, Shanghai Jiao Tong University (2020 - 2024)
   - Graduated from Shanghai Jiao Tong University (SJTU) in June 2024
@@ -35,7 +35,7 @@ author_profile: true
 - **Research Intern, MINIMAX** (February 2025 - Present; AI/technology company)
 - **Research Intern, Tencent WXG** (June 2024 - September 2024; division of Tencent technology company)
   - Internship advisor: Zifei Shan, who works at Tencent WXG
-- **Research Intern, Shanghai AI Lab** (June 2023 - December 2023; AI research laboratory)
+- **Research Intern, Shanghai AI Lab** (June 2023 - December 2023; research institution and AI research laboratory)
   - Internship advisor: Prof. Yu Cheng, Professor associated with Shanghai AI Lab
 
 ## Publications
@@ -52,20 +52,20 @@ The publications below are also available on the [Publications page]({{ base_pat
    - Authors: Junteng Liu, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He
    - Code repository: Vision4Chart on GitHub
 
-3. **On the Universal Truthfulness Hyperplane Inside LLMs** (EMNLP 2024; Conference on Empirical Methods in Natural Language Processing)
+3. **On the Universal Truthfulness Hyperplane Inside LLMs** (EMNLP 2024)
    - Role: First author
    - Authors: Junteng Liu, Shiqi Chen, Yu Cheng, Junxian He
    - Code repository: Universal_Truthfulness_Hyperplane on GitHub
 
-4. **In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation** (ICML 2024; International Conference on Machine Learning)
+4. **In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation** (ICML 2024)
    - Role: Co-author
    - Authors: Shiqi Chen, Miao Xiong, Junteng Liu, Zhengxuan Wu, Teng Xiao, Siyang Gao, Junxian He
 
-5. **C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models** (NeurIPS 2023; Neural Information Processing Systems)
+5. **C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models** (NeurIPS 2023)
    - Role: Co-author
    - Authors: Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, Junteng Liu, Chuancheng Lv, Yikai Zhang, Jiayi Lei, Yao Fu, Maosong Sun, Junxian He
 
-6. **Composing Parameter-Efficient Modules with Arithmetic Operations** (NeurIPS 2023; Neural Information Processing Systems)
+6. **Composing Parameter-Efficient Modules with Arithmetic Operations** (NeurIPS 2023)
    - Role: Co-author
    - Authors: Jinghan Zhang, Shiqi Chen, Junteng Liu, Junxian He
 

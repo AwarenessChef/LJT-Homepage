@@ -13,7 +13,7 @@ Source repository for Junteng Liu's personal academic homepage, forked from the 
 ## Academic Background
 
 - **Ph.D. in Computer Science**, Hong Kong University of Science and Technology (2024 - Present)
-  - Member of the HKUST NLP Group, a research group at HKUST led by Professor Junxian He and focused on natural language processing research
+  - Member of the HKUST NLP Group
   - Ph.D. supervisor: Professor Junxian He
 - **B.Eng.**, Shanghai Jiao Tong University (2020 - 2024)
   - Graduated from Shanghai Jiao Tong University (SJTU) in June 2024
@@ -28,7 +28,7 @@ Source repository for Junteng Liu's personal academic homepage, forked from the 
 - **Research Intern, MINIMAX** (February 2025 - Present; AI/technology company)
 - **Research Intern, Tencent WXG** (June 2024 - September 2024; division of Tencent technology company)
   - Internship advisor: Zifei Shan, who works at Tencent WXG
-- **Research Intern, Shanghai AI Lab** (June 2023 - December 2023; AI research laboratory)
+- **Research Intern, Shanghai AI Lab** (June 2023 - December 2023; research institution and AI research laboratory)
   - Internship advisor: Prof. Yu Cheng, Professor associated with Shanghai AI Lab
 
 ## Publications
